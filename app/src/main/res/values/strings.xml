@@ -1,0 +1,35 @@
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2020 Shreyas Patil
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<resources>
+    <string name="app_name">美食</string>
+    <string name="text_no_connectivity">无连接</string>
+    <string name="text_connectivity">返回联机状态</string>
+    <string name="text_post_header">文章标题</string>
+    <string name="exit_dialog_message">是否要关闭应用程序?</string>
+    <string name="exit_dialog_title">退出</string>
+    <string name="option_yes">是</string>
+    <string name="option_no">否</string>
+    <string name="share_message">\"%s\" by %s. \nVisit: https://github.com/PatilShreyas/Foodium</string>
+</resources>
