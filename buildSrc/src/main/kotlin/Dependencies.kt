@@ -61,3 +61,7 @@ object Room {
     const val ktx = "androidx.room:room-ktx:2.2.6"
     const val runtime = "androidx.room:room-runtime:2.2.6"
 }
+object image{
+    const val  picasso = "com.squareup.picasso:picasso:2.71828"
+    const val  photoView = "com.github.chrisbanes:PhotoView:2.3.0"
+}
