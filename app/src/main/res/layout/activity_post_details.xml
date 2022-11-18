@@ -70,10 +70,13 @@
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <include
         android:id="@+id/postContent"
         layout="@layout/content_post_details" />
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

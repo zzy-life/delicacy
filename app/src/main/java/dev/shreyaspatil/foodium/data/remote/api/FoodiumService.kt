@@ -34,10 +34,12 @@ import retrofit2.http.GET
  */
 interface FoodiumService {
 
-    @GET("/DummyFoodiumApi/api/posts/")
+    @GET("/xyw/api/get/test/")
     suspend fun getPosts(): Response<List<Post>>
 
     companion object {
-        const val FOODIUM_API_URL = "https://patilshreyas.github.io/"
+        const val FOODIUM_API_URL = "http://www.zhangzhiyu.live:8900"
+//            const val FOODIUM_API_URL = "http://10.30.134.168:8088"
     }
+
 }

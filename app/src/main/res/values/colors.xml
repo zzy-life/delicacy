@@ -38,4 +38,6 @@
 
     <color name="colorStatusConnected">#43A047</color>
     <color name="colorStatusNotConnected">#D32F2F</color>
+
+    <color name="Grey">#878585</color>
 </resources>

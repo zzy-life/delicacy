@@ -31,7 +31,7 @@ import kotlinx.coroutines.flow.*
 import retrofit2.Response
 
 /**
- * A repository which provides resource from local database as well as remote end point.
+ * 提供本地数据库和远程端点资源的存储库。
  *
  * [RESULT] represents the type for database.
  * [REQUEST] represents the type for network.
@@ -67,23 +67,23 @@ abstract class NetworkBoundRepository<RESULT, REQUEST> {
         )
     }.catch { e ->
         e.printStackTrace()
-        emit(Resource.Failed("Network error! Can't get latest posts."))
+        emit(Resource.Failed("网络错误！无法获取最新帖子."))
     }
 
     /**
-     * Saves retrieved from remote into the persistence storage.
+     * 将从远程检索到的数据保存到持久性存储中。
      */
     @WorkerThread
     protected abstract suspend fun saveRemoteData(response: REQUEST)
 
     /**
-     * Retrieves all data from persistence storage.
+     *从持久性存储中检索所有数据。
      */
     @MainThread
     protected abstract fun fetchFromLocal(): Flow<RESULT>
 
     /**
-     * Fetches [Response] from the remote end point.
+     * 从远程端点获取[Response]。
      */
     @MainThread
     protected abstract suspend fun fetchFromRemote(): Response<REQUEST>

@@ -144,6 +144,13 @@ dependencies {
     // Android Testing
     androidTestImplementation(Testing.extJUnit)
     androidTestImplementation(Testing.espresso)
+
+    //image
+    //图像下载库
+    implementation(image.picasso)
+    //图像触摸放大缩小库
+    implementation(image.photoView)
+
 }
 
 ktlint {
